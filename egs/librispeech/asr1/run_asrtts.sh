@@ -147,6 +147,7 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
 fi
 
 echo "ASRTTS JSON prep"
+echo "Refer to /data4/mlhan/tools/kaldi/egs/sitw/v2"
 if [ ${stage} -le 3 ] && [ ${stop_stage} -ge 3 ]; then
     nj=4000
     echo "stage 3: x-vector extraction"
